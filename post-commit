@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git push
+
+if git branch | grep "* master"
+then 
+curl --user "admin:abd@399" http://192.168.56.101:8080/job/production-enc/build?token=redhat
+else
+curl --user "admin:abd@399" http://192.168.56.101:8080/job/testing-env/build?token=redhat                     
+fi

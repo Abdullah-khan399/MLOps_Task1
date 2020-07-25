@@ -1,0 +1,17 @@
+MLOps #Task1
+Objective
+#Job1
+if devloper push code to dev branch then
+jenkins will fetch code form dev branch 
+and deploy it on dev-docker env.
+
+#Job2
+if devloper push code to master branch then
+jenkins will fetch code form master branch 
+and deploy it on master-docker env.
+
+#Job3
+QA team will manually check weather website 
+running on dec-docker-env good or not.
+if it is running fine then jenkins will merge 
+thedev branch to master branch and trigger #job2 
