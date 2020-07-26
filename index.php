@@ -4,5 +4,5 @@
 
 
 <?php
-echo "And it is my second PHP script!";
+echo "this is my second PHP script!";
 ?>
