@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
+
 
 
 
@@ -11,5 +9,3 @@ echo "Here , it is my testing-env";
 echo "hello-world";
 ?>
 
-</body>
-</html>
